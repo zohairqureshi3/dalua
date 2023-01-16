@@ -1,0 +1,911 @@
+
+@font-face {
+    font-family: "Oswald-Medium";
+    src: url("../fonts/Oswald-Medium.woff2") format("woff2"),
+         url("../fonts/Oswald-Medium.woff") format("woff");
+}
+@font-face {
+    font-family: "Oswald-SemiBold";
+    src: url("../fonts/Oswald-SemiBold.woff2") format("woff2"),
+         url("../fonts/Oswald-SemiBold.woff") format("woff");
+}
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: url("../fonts/OpenSans-Bold.woff2") format("woff2"),
+         url("../fonts/OpenSans-Bold.woff") format("woff");
+  }
+  @font-face {
+    font-family: "OpenSans-Medium";
+    src: url("../fonts/OpenSans-Medium.woff2") format("woff2"),
+         url("../fonts/OpenSans-Medium.woff") format("woff");
+  }
+  @font-face {
+    font-family: "OpenSans-Regular";
+    src: url("../fonts/OpenSans-Regular.woff2") format("woff2"),
+         url("../fonts/OpenSans-Regular.woff") format("woff");
+  }
+  @font-face {
+    font-family: "OpenSans-SemiBold";
+    src: url("../fonts/OpenSans-SemiBold.woff2") format("woff2"),
+         url("../fonts/OpenSans-SemiBold.woff") format("woff");
+  }
+body{
+    font-size: 16px;
+    font-family:'OpenSans-Regular' ;
+    color: #000;
+}
+h1{
+    
+}
+h2{
+
+}
+
+#header{
+    height: 102px;
+    border: 1px solid #3047B7;
+    background: radial-gradient(#081760, #030D29);
+}
+#header .container-fluid{
+    display: flex;
+    margin: auto;
+    max-width: 1720px;
+    justify-content: center;
+    align-items: center;
+}
+#header .container-fluid.header{
+    padding-top: 20px;
+}
+.navbar-nav .nav-link{
+    height: 22px;
+    text-align: left;
+    font-family: 'OpenSans-Regular';
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #FFFFFF !important;
+    opacity: 0.9;
+    padding-right: 50px !important;
+}
+.navbar-nav .nav-link:hover{
+    color: #F48B1E !important;
+}
+#header nav.navbar {
+    margin-left: auto;
+    padding-top: unset;
+}
+.connect-wallet-button{
+    padding-right: 40px;
+}
+.connect-wallet-button button{
+    height: 46px;
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    font-size: 'OpenSans-Regular';
+    font-size: 16px;
+    opacity: 0.9;
+    background-color: transparent;
+    width: 180px;
+    color: #FFFFFF;
+}
+#banner{
+    background: transparent url('../images/img-01.png') 0% 0% no-repeat padding-box;
+    height: 1135px;
+}
+#banner .container-fluid{
+    max-width: 1518px;
+    margin: auto;
+}
+.new-era-text h1{
+    height: 107px;
+    text-align: center;
+    font-family: 'Oswald-SemiBold';
+    font-size: 72px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.join-community-button{
+    text-align: center;
+}
+.join-community-button button{
+    height: 60px;
+    background: #F48B1E 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    border: 2px solid #F48B1E;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'OpenSans-SemiBold';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 0.9;
+    width: 220px;
+}
+.join-community-button button:hover{
+    background-color: transparent;
+    border: 2px solid #F48B1E;
+}
+.new-era-text{
+    margin-top: -120px;
+}
+#img-row .investor{
+    height: 466px;
+    background: transparent linear-gradient(180deg, #1BACBF 0%, #3967C4 100%) 0% 0% no-repeat padding-box;
+    border-radius: 40px;
+    opacity: 1;
+}
+#img-row .art{
+    height: 466px;
+    background: transparent linear-gradient(180deg, #A14EC2 0%, #733B96 100%) 0% 0% no-repeat padding-box;
+    border-radius: 40px;
+    opacity: 1;
+}
+#img-row .community{
+    height: 466px;
+    background: transparent linear-gradient(180deg, #F68D1F 0%, #F16A29 100%) 0% 0% no-repeat padding-box;
+    border-radius: 40px;
+    opacity: 1;
+}
+#img-row .investor div h1,
+#img-row .art div h1,
+#img-row .community div h1{
+    height: 62px;
+    text-align: center;
+    font-size: 42px;
+    font-family: 'Oswald-Medium';
+    line-height: 62px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+#img-row{
+    margin-top: -130px;
+    margin-bottom: 130px;
+}
+#img-row .row{
+    justify-content: center;
+}
+#img-row .img-investor{
+    padding-bottom: 33px;
+    text-align: center;
+}
+#img-row .img-community{
+    padding: 45px 56px;
+    text-align: center;
+}
+.img-art{
+    text-align: center;
+}
+#nfts div h1{
+    height: 62px;
+    text-align: center;
+    line-height: 48px;
+    font-size: 42px;
+    font-family: 'Oswald-Medium';
+    font: normal normal medium 42px/48px Oswald;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-weight: bold;
+}
+#nfts .nfts-options div p{
+    height: 56px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'OpenSans-SemiBold';
+    padding-top: 15px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+#nfts .nfts-para{
+    display: flex;
+    justify-content: center;
+}
+#nfts .nfts-para{
+    margin-bottom: 70px;
+}
+#nfts .nfts-para p{
+    width: 52%;
+    line-height: 30px;
+    font-size: 16px;
+    font-family: 'OpenSans-Regular';
+    text-align: center;
+}
+#nfts .nfts-options{
+    display: flex;
+    justify-content: center;
+}
+.list-img{
+    width: 115px;
+    height: 115px;
+    background: #F2F6F9 0% 0% no-repeat padding-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+#nfts .grouplink{
+    padding-top: 45px;
+}
+#dalua-drops{
+    height: 2300px;
+    background: #F2F6F9 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#dalua-drops .details{
+    /* width: 370px; */
+    height: 120px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #0000000f;
+    opacity: 1;
+    margin-top: 17px;
+}
+#dalua-drops .details .name h4{
+    font-size: 20px;
+    line-height: 31px;
+    font-family: 'OpenSans-Bold';
+}
+#dalua-drops .details .name{
+    padding-top: 25px;
+}
+#dalua-drops .details .stock, #dalua-drops .details .name{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+#dalua-drops .details .stock p{
+    font-size: 16px;
+    line-height: 32px;
+    font-family: 'OpenSans-Regular';
+}
+#dalua-drops .details .name p{
+    width: 95px;
+    height: 31px;
+    font-family: 'OpenSans-Bold';
+    font-size: 14px;
+    line-height: 32px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #517491;
+    border-radius: 4px;
+    opacity: 1;
+    padding-left: 8px;
+}
+.contact-heading{
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.contact-heading h1{
+    text-align: left;
+    font: normal normal medium 40px/48px Oswald;
+    font-size: 40px;
+    line-height: 48px;
+    font-family: 'Oswald-Medium';
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-weight: bold;
+}
+.contact-heading hr{
+    width: 66%;
+    margin-top: 27px;
+    margin-left: 27px;
+}
+.contact-heading div{
+    display: flex;
+}
+.controls-top a img{
+    padding: 10px;
+}
+.controls-top{
+    padding-top: 8px;
+}
+.line-2{
+    margin-top: 100px;
+}
+.nav-tabs{
+    border: unset;
+}
+#trending-nfts .nav-tabs li a{
+    text-decoration: none;
+    font: normal normal 600 16px/24px Open Sans;
+    letter-spacing: 0px;
+    font-family: 'OpenSans-SemiBold';
+    font-size: 16px;
+    line-height: 24px;
+    color: #313131;
+    opacity: 1;
+    height: 22px;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid transparent;
+}
+.nav-tabs li{
+    padding-right: 22px;
+}
+.nav-tabs li.active a{
+    color: #FCA21F;
+    border: 1px solid #FCA21F !important;
+}
+#trending-nfts .nav-tabs li a:hover{
+    color: #FCA21F;
+    border: 1px solid #FCA21F;
+}
+.nfts-tabs{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 80px;
+    margin-bottom: 50px;
+}
+.nfts-tabs h3{
+    font: normal normal medium 42px/48px Oswald;
+    letter-spacing: 0px;
+    font-size: 42px;
+    font-family: 'Oswald-Medium';
+    line-height: 48px;
+    color: #000000;
+    opacity: 1;
+    height: 62px;
+    font-size: 42px;
+}
+.img-one-details{
+    /* width: 608px; */
+    height: 120px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #0000000F;
+    opacity: 1;
+    margin-top: 15px;
+}
+.img-one-name{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.img-one-name h4{
+    font-size: 20px;
+    line-height: 31px;
+    font-family: 'OpenSans-Bold';
+}
+.img-one-name p{
+    font-size: 14px;
+    line-height: 32px;
+    font-family: 'OpenSans-Bold';
+    border: 1px solid #517491;
+    padding-left: 8px;
+}
+.img-one-stock{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.img-one-name p{
+    width: 95px;
+    height: 31px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #517491;
+    border-radius: 4px;
+    opacity: 1;
+}
+.images-container{
+    display: flex;
+}
+.aa-name{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.aa-name h4{
+    font-size: 20px;
+    line-height: 31px;
+    font-family: 'OpenSans-Bold';
+}
+.aa-name p{
+    font-size: 14px;
+    line-height: 32px;
+    font-family: 'OpenSans-Bold';
+    border: 1px solid #517491;
+    padding: 0px 13px;
+}
+.aa-stock{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.aa-stock p{
+    font-size: 16px;
+    line-height: 32px;
+    font-family: 'OpenSans-Regular';
+}
+.aa-details{
+    /* width: 400px; */
+    height: 120px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #0000000F;
+    opacity: 1;
+    margin-top: 15px;
+}
+.row-2{
+    margin-top: 20px;
+    display: flex;
+}
+#background-img-logo{
+    height: 700px;
+    background: transparent url('../images/BG.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#background-img-logo div h1{
+    font-size: 72px;
+    line-height: 100px;
+    font-family: 'OpenSans-SemiBold';
+    height: 207px;
+    font: normal normal 600 72px/100px Oswald;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.question-form div h1{
+    font-size: 42px;
+    line-height: 47.75px;
+    font-family: 'Oswald-Medium';
+    font-weight: bold;
+}
+#background-img-logo .row{
+    justify-content: center;
+    align-items: center;
+    max-width: 1850px;
+    margin: auto;
+}
+#background-img-logo .join-community-button{
+    text-align: left;
+}
+#nfts{
+    margin-bottom: 50px;
+}
+#background-img-logo .col-md-6 img{
+    padding-top: 50px;
+}
+#popup-question .container{
+    text-align: center;
+}
+.question-form{
+    max-width: 1170px;
+    margin: auto;
+    height: 723px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px solid gainsboro;
+    box-shadow: 0px 5px inset #F48B1E;
+    margin-top: 100px;
+    padding-top: 100px;
+    border-radius: 10px;
+}
+.form-fields input{
+    width: 456px;
+    height: 60px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #7A7A7A63;
+    border-radius: 2px;
+    opacity: 1;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    padding-left: 25px;
+}
+.form-fields{
+    margin-top: 80px;
+}
+.form-fields textarea{
+    width: 933px;
+    height: 205px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #7A7A7A63;
+    border-radius: 2px;
+    opacity: 1;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.submit-button{
+    width: 121px;
+    height: 60px;
+    background: #F48B1E 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    border: 2px solid #F48B1E;
+    opacity: 0.9;
+    font-size: 16px;
+    font: normal normal 600 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    border: none;
+}
+.submit-button:hover{
+    background: transparent;
+    border: 2px solid #F48B1E;
+    color: #081760;
+}
+.submit-btn{
+    width: 90%;
+    text-align: right;
+    margin-top: 15px;
+}
+#footer{
+    height: 425px;
+    background: #08165D 0% 0% no-repeat padding-box;
+    margin-top: -100px;
+}
+.footer-navbar li{
+    list-style: none;
+    padding: 0;
+    padding-right: 25px;
+}
+.footer-navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font: normal normal 600 16px/24px Open Sans;
+    letter-spacing: 0px;
+    color: #3E9CBF;
+}
+.footer-navbar li a:hover{
+    color: #F48B1E;
+}
+.footer-para{
+    font: normal normal normal 16px/24px Open Sans;
+    letter-spacing: 0px;
+    color: #D5D5DA;
+    font-size: 16px;
+    padding-right: 15px;
+    text-align: right;
+}
+.social-links li{
+    list-style: none;
+    padding: 0;
+    padding-right: 11px;
+}
+.footer-navbar{
+    display: flex;
+}
+.social-links{
+    display: flex;
+    float: right;
+}
+#footer .container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 193px;
+}
+.social-links li a {
+    background: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.social-links li a:hover{
+    background-color: #F48B1E;
+    color: #ffffff;
+}
+#main{
+    position: relative;
+}
+.img-flower img, .img-shapes img, .img-body img{
+    width: 100%;
+}
+.col-md-8 .col-md-4{
+    padding-bottom: 48px;
+}
+
+@media (max-width: 1399.98px) { 
+    .contact-heading h1{
+        font-size: 26px;
+    }
+    #background-img-logo div h1{
+        font-size: 55px;
+    }
+    .form-fields textarea {
+        width: 600px;
+        height: 100px;
+    }
+    .aa-name h4 {
+        font-size: 14px;
+    }
+    #dalua-drops {
+        height: 2000px;
+    }
+    .col-md-8 .col-md-4 {
+        padding-bottom: 17px !important;
+    }
+    .aa-details{
+        margin-top: 5px;
+    }
+}
+@media (max-width: 1199.98px) { 
+    #img-row .investo{
+        width: unset;
+    }
+    .contact-heading hr {
+        width: 580px;
+    }
+    #background-img-logo div h1 {
+        font-size: 45px;
+    }
+    .nfts-tabs h3 {
+        font-size: 26px;
+    }
+    #dalua-drops {
+        height: 1900px
+    }
+    .navbar-nav .nav-link{
+        padding-right: 35px !important;
+    }
+    #banner{
+        height: 900px;
+    }
+    .aa-name h4 {
+        font-size: 12px;
+    }
+    .aa-name p{
+        padding: unset;
+        font-size: 13px;
+    }
+    .aa-details{
+        height: 100px;
+    }
+    .aa-details {
+        margin-top: 14px;
+    }
+}
+
+@media (max-width: 991.98px) { 
+    .join-community-button {
+        text-align: center;
+        margin-top: 120px;
+    }
+    #banner{
+        height: 900px;
+    }
+    #header{
+        height: unset;
+    }
+    .nav-tabs li{
+        padding-right: unset;
+    }
+    .nfts-tabs{
+        margin-left: unset;
+        margin-right: unset;
+    }
+    #dalua-drops {
+        height: 2200px;
+    }
+    .images-container .col-md-8{
+        width: 100%;
+    }
+    .new-era-text {
+        margin-top: -60px;
+    }
+    .contact-heading hr {
+        width: 380px;
+    }
+    .grouplink{
+        display: none;
+    }
+    #nfts .nfts-options {
+        justify-content: space-evenly;
+    }
+    #nfts .nfts-para p {
+        width: unset;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #dalua-drops .details .name h4{
+        font-size: 13px;
+    }
+    #dalua-drops .details .name p{
+        font-size: 11px;
+        padding-left: unset;
+        width: 85px;
+    }
+    #trending-nfts .nav-tabs li a{
+        padding: 6px;
+    }
+    .images-container .col-md-4{
+        margin-bottom: 10px;
+    }
+    .nfts-tabs h3{
+        margin-top: -10px;
+    }
+    .aa-name p{
+        font-size: 15px;
+        padding: 0px 5px;
+    }
+    .aa-name h4 {
+        font-size: 14px;
+    }
+    .col-md-4.community{
+        margin-top: 15px;
+    }
+    .footer-navbar li{
+        padding-right: 15px;
+    }
+ }
+ @media (max-width: 767.98px) { 
+    #nfts .nfts-options {
+        margin: auto;
+        max-width: 50%;
+    }
+    .form-fields textarea {
+        width: 440px;
+    }
+    .new-era-text{
+        margin-top: unset;
+    }
+    #background-img-logo .col-md-6 img{
+        width: 300px;
+    }
+    #background-img-logo .join-community-button {
+        margin-top: 50px;
+    }
+    .images-container .col-md-8{
+        text-align: center;
+    }
+    #dalua-drops {
+        height: 100%;
+    }
+    #dalua-drops .col-md-4{
+        margin-bottom: 20px;
+    }
+    .nfts-tabs{
+        display: unset;
+    }
+    #trending-nfts .nav-tabs li a {
+        padding: 5px;
+    }
+    #trending-nfts .nav.nav-tabs{
+        margin-bottom: 20px;
+    }
+    .col-md-8 .col-md-4 .nfts-imgs img{
+        width: 100%;
+    }
+    .aa-name h4 {
+        font-size: 25px;
+    }
+    .aa-name p {
+        font-size: 20px;
+        padding: 0px 10px;
+    }
+    .img-one-name h4 {
+        font-size: 25px;
+    }
+    .img-one-name p {
+        width: 120px;
+        font-size: 20px;
+    }
+    .aa-details {
+        height: 120px;
+    }
+    .aa-stock p {
+        font-size: 20px;
+    }
+    .img-one-stock p {
+        font-size: 20px;
+    }
+    #dalua-drops .details .name h4 {
+        font-size: 25px;
+    }
+    #dalua-drops .details .name p {
+        font-size: 20px;
+        width: 117px;
+    }
+    #dalua-drops .details .name p {
+        font-size: 20px;
+    }
+    .footer-navbar li {
+        padding-right: 12px;
+    }
+    #background-img-logo .join-community-button{
+        text-align: center;
+    }
+    #background-img-logo .b-logo{
+        width: 300px;
+    }
+    .contact-heading hr {
+        width: 205px;
+    }
+}
+
+  @media (max-width: 575.98px){
+    .new-era-text h1{
+        font-size: 20px;
+    }
+    .form-fields input{
+        width: unset;
+    }
+    .form-fields textarea {
+        width: 200px;
+    }
+    .nfts-options{
+        display: none !important;
+    }
+    .footer-navbar{
+        display: none !important;
+    }
+    #nfts{
+        margin-bottom: 300px;
+    }
+}
+
+
+@media (max-width: 400.98px){
+    #header nav.navbar {
+        position: absolute;
+        top: 30px;
+        right: 55px;
+    }
+    #header .container-fluid{
+        display: unset;
+    }
+    .user-icon{
+        position: absolute;
+        top: 30px;
+        right: 15px
+    }
+    #header{
+        height: auto;
+    }
+    .connect-wallet-button{
+        margin-top: 75px;
+    }
+    a.header-logo{
+        position: absolute;
+        top: 20px;
+    }
+    #banner {
+        height: 600px;
+    }
+    .join-community-button{
+        margin-top: unset;
+    }
+    #nfts div h1{
+        font-size: 30px;
+    }
+    #nfts{
+        margin-bottom: unset;
+    }
+    .contact-heading hr{
+        width: 70px;
+    }
+    .contact-heading h1{
+        font-size: 16px;
+    }
+    .aa-name h4 {
+        font-size: 17px;
+    }
+    .aa-name p {
+        font-size: 15px;
+    }
+    #background-img-logo div h1 {
+        font-size: 27px;
+    }
+    .question-form {
+        height: 775px;
+    }
+    #dalua-drops .details .name h4 {
+        font-size: 20px;
+    }
+    .img-one-name p {
+        width: 100px;
+        font-size: 17px;
+    }
+    .img-one-name h4 {
+        font-size: 18px;
+    }
+}
